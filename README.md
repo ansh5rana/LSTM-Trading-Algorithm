@@ -37,3 +37,18 @@ The model takes 60 days of historical stock prices as input to predict the price
 - The algorithm uses Backtrader, a Python library for backtesting trading strategies, to simulate the stock trading strategy over a defined historical period.
 - It starts with an initial cash value of $10,000 and simulates buying and selling based on the LSTM + RSI strategy.
 - The algorithm tracks the portfolio value and calculates the percentage change in the portfolio after backtesting.
+
+## Results
+The algorithm was backtested on SPY (S&P 500 ETF) stock data from January 1, 2015, to July 1, 2024. The results are approximate, as every time the program is run, the model may learn slightly differently due to the stochastic nature of the training process.
+
+### Starting Portfolio Value: $10,000.00
+### Final Portfolio Value: $24,540.60
+### Percentage Change: +145.41%
+
+## Model Predictions vs SPY Actual Price
+![SPY Model Predictions](https://github.com/user-attachments/assets/93fd9ac5-b3ee-4808-9950-c460b58883f6)
+
+## Backtesting Results
+![Algorithm Backtesting SPY](https://github.com/user-attachments/assets/b61612d7-c152-4aac-9d91-9a83ac41db4f)
+
+
