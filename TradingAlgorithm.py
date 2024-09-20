@@ -11,9 +11,6 @@ from tensorflow.keras.layers import LSTM, Dense
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.dates as mdates
 
-import os
-os.environ['PYTHONIOENCODING'] = 'utf-8'
-
 # Step 1: Data Collection (using yfinance)
 
 ticker = 'SPY'
