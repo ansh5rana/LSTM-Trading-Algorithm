@@ -1,5 +1,4 @@
-# Make sure to install these libraries before running the program:
-# !pip install yfinance tensorflow backtrader matplotlib
+# pip install yfinance tensorflow backtrader matplotlib
 
 import yfinance as yf
 import pandas as pd
