@@ -28,7 +28,7 @@ The model takes 60 days of historical stock prices as input to predict the price
 ### 7. Relative Strength Index (RSI) Calculation
 - RSI is used as a momentum indicator to help determine whether the stock is overbought or oversold:
   - RSI > 70: Overbought (potential sell signal).
-  - RSI < 30: Oversold (potential buy signal).
+  - RSI < 40: Oversold (potential buy signal).
   - The RSI is calculated over a 14-day window to identify trends in stock momentum.
 ### 8. Decision-Making Using LSTM and RSI
 - Buying Logic: The algorithm buys stock (10% of current portfolio value) when the LSTM model predicts an upward price movement for the next day (above 5%) and the RSI indicates an oversold condition (below 40).
