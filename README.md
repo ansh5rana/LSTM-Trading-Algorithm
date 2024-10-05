@@ -42,8 +42,8 @@ The model takes 60 days of historical stock prices as input to predict the price
 The algorithm was backtested on SPY (S&P 500 ETF) stock data from January 1, 2015, to July 1, 2024. The results are approximate, as every time the program is run, the model may learn slightly differently due to the stochastic nature of the training process. Additionally, changing the price movement threshold, from 5% to 2.5% or 1%, can increase portfolio returns.
 
 ### Starting Portfolio Value: $10,000.00
-### Final Portfolio Value: $24,540.60
-### Percentage Change: +145.41%
+### Final Portfolio Value: $25120.48
+### Percentage Change: +151.20%
 
 
 ## Model Predictions vs SPY Actual Price
