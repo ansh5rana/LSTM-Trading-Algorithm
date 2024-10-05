@@ -47,9 +47,9 @@ The algorithm was backtested on SPY (S&P 500 ETF) stock data from January 1, 201
 
 
 ## Model Predictions vs SPY Actual Price
-![SPY Model Predictions](https://github.com/user-attachments/assets/93fd9ac5-b3ee-4808-9950-c460b58883f6)
+![DBB5A751-A933-4E56-8028-B5C4B7848F16](https://github.com/user-attachments/assets/ddc901fc-fe6d-4aae-98a4-b31f57fd5e36)
 
 ## Backtesting Results
-![Algorithm Backtesting SPY](https://github.com/user-attachments/assets/b61612d7-c152-4aac-9d91-9a83ac41db4f)
+![image](https://github.com/user-attachments/assets/11ae965a-edaf-4a5a-a593-2091b7f54050)
 
 
