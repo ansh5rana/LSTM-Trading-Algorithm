@@ -15,8 +15,8 @@ import matplotlib.dates as mdates
 
 ticker = 'SPY'
 # Define periods for training and backtesting
-train_start_date = '2013-01-01'
-train_end_date = '2020-12-31'  
+train_start_date = '2005-01-01'
+train_end_date = '2014-12-31' 
 
 # Backtest on unseen recent data
 backtest_start_date = '2015-01-01'
