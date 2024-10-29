@@ -32,7 +32,7 @@ The model takes 60 days of historical stock prices as input to predict the price
   - The RSI is calculated over a 14-day window to identify trends in stock momentum.
 ### 8. Decision-Making Using LSTM and RSI
 - Buying Logic: The algorithm buys stock (10% of current portfolio value) when the LSTM model predicts an upward price movement for the next day (above 5%) and the RSI indicates an oversold condition (below 40).
-- Selling Logic: The algorithm sells stock (100 shares) when the LSTM model predicts a price drop for the next day (below 5%) and the RSI indicates an overbought condition (above 70).
+- Selling Logic: The algorithm sells stock (100 shares) when the LSTM model predicts a price drop for the next day (atleast 1%) and the RSI indicates an overbought condition (above 70).
 ### 9. Backtesting
 - The algorithm uses Backtrader, a Python library for backtesting trading strategies, to simulate the stock trading strategy over a defined historical period.
 - It starts with an initial cash value of $10,000 and simulates buying and selling based on the LSTM + RSI strategy.
