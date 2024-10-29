@@ -104,7 +104,7 @@ plt.show()
 
 # Define a custom Backtrader strategy using LSTM and RSI for decision-making
 class LSTM_RSI_Strategy(bt.Strategy):
-    params = (('lstm_threshold', 0.05),)  # LSTM threshold (e.g., 5%)
+    params = (('lstm_threshold', 0.01),)  # LSTM threshold (e.g., 1%)
 
     def __init__(self, lstm_model):
         self.dataclose = self.datas[0].close  # Reference to closing prices
